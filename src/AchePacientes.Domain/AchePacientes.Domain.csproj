@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pacientes\Interfaces\IPacienteRepository.cs~RF1950c33.TMP" />
+    <None Remove="Pacientes\Models\Paciente.cs~RF188cd74f.TMP" />
+    <None Remove="Pacientes\Models\Role.cs~RF184bed83.TMP" />
+    <None Remove="Pacientes\ValueObjects\up4ajqwx.zt5~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="NetDevPack" Version="6.1.0" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
