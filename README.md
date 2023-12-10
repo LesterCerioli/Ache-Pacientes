@@ -16,14 +16,14 @@ Inicial
 PS C:\vscode\backend-pacientes\src> dotnet ef migrations add InitialCreate --verbose --project AchePacientes.Infrastructure   --startup-project AchePacientes.Api
 									dotnet ef database update
 
-Update após novas colunas/tabelas
+Update apï¿½s novas colunas/tabelas
 dotnet ef migrations add NewColumns --verbose --project AchePacientes.Infrastructure   --startup-project AchePacientes.Api
 dotnet ef database update --verbose --project AchePacientes.Infrastructure   --startup-project AchePacientes.Api
 
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
-
+//test
 If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
